@@ -1,41 +1,7 @@
-# Portfolio 4
-Yet another time-sucking portfolio project.
+import React from "react";
 
-## Uses
-
-JS/React/Bootstrap/Parallax
-
------------
-
-## Installation Instructions
-
-```
-npm install
-```
-
------------
-
-## Usagage Information
-
-```
-npm start
-```
-
------------
-
-## Live Demo
-
-https://erickmeline.github.io/Portfolio4/
-
------------
-
-## Screen shot
-![screen shot](./public/images/screenshot.png)
-
------------
-
-## Code example - nothing special here
-```
+function Header(props) {
+  return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a href="/" className="navbar-brand">Erick Meline</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,11 +15,7 @@ https://erickmeline.github.io/Portfolio4/
         </div>
       </div>
     </nav>
-```
+  );
+}
 
------------
-
-## Questions
-Reach out with additional questions:
-
-[https://github.com/erickmeline](https://github.com/erickmeline) - [erickmeline@gmail.com](mailto://erickmeline@gmail.com)
+export default Header;
