@@ -25,7 +25,7 @@ npm start
 
 ## Live Demo
 
-https://ericks-portfolio4.herokuapp.com/portfolio
+https://ericks-portfolio4.herokuapp.com
 
 -----------
 
