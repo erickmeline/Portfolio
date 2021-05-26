@@ -81,7 +81,7 @@ function Portfolio(props) {
                                         Book Search
                                     </div>
                                     <div className="image">
-                                        <img src="https://raw.githubusercontent.com/erickmeline/Project2/main/screenshot2.png" className="card-img-top" alt="Emomii" />
+                                        <img src="https://github.com/erickmeline/Google-Books-Search/raw/main/client/public/screenshot.png" className="card-img-top" alt="Emomii" />
                                     </div>
                                     <div className="card-body">
                                         <p className="card-text">A React.js app that searches Google Books, and saves favorites for future purchase.</p>
