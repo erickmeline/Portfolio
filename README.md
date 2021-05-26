@@ -30,7 +30,7 @@ https://erickmeline.github.io/Portfolio4/
 -----------
 
 ## Screen shot
-![screen shot](./public/images/screenshot.png)
+![screen shot](./public/assets/images/screenshot.png)
 
 -----------
 
