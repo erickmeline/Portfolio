@@ -25,7 +25,7 @@ npm start
 
 ## Live Demo
 
-https://erickmeline.github.io/Portfolio4/
+https://ericks-portfolio4.herokuapp.com/portfolio
 
 -----------
 
