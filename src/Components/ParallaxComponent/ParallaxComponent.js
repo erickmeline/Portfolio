@@ -12,7 +12,7 @@ class ParallaxComponent extends Component {
     return (
       <ul id="parallax" ref={el => this.scene = el} className="header-content d-flex align-items-center">
         <li className="header-shape shape-one layer" data-depth="0.10">
-          <img src="assets/images/shapes/shape-1.png"/>
+          <img src="assets/images/shapes/shape-1.png" alt="Shape"/>
         </li>
         <li className="header-shape shape-tow layer" data-depth="0.30">
           <img src="assets/images/shapes/shape-2.png" alt="Shape"/>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function About(props) {
   return (
@@ -22,20 +23,20 @@ function About(props) {
                     <div className="row">
                         <div className="card small col-lg-4 col-sm-12">
                             <div className="card-body">
-                                <h6 className="card-title">Location</h6>
-                                <small className="card-text">Walnut Creek, CA</small>
+                                <h6 className="card-title">Linkedin</h6>
+                                <small className="card-text"><Link to={`https://www.linkedin.com/in/erick-m-2943819/`}>erick-m-2943819</Link></small>
                             </div>
                         </div>
                         <div className="card small col-lg-4 col-sm-12">
                             <div className="card-body">
                                 <h6 className="card-title">Phone</h6>
-                                <small className="card-text">925 451 1168</small>
+                                <small className="card-text"><Link to={`tel://925.451.1168`}>925 451 1168</Link></small>
                             </div>
                         </div>
                         <div className="card small col-lg-4 col-sm-12">
                             <div className="card-body">
                                 <h6 className="card-title">Email</h6>
-                                <small className="card-text">erickmeline@gmail.com</small>
+                                <small className="card-text"><Link to={`mailto://erickmeline@gmail.com`}>erickmeline@gmail.com</Link></small>
                             </div>
                         </div>
                     </div>

@@ -1,19 +1,16 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function Header(props) {
+  const location = useLocation();
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a href="/" className="navbar-brand">Erick Meline</a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <nav className="navbar navbar-light bg-light">
+      <Link to="/" className="navbar-brand">Erick Meline</Link>
         <div className="navbar-nav">
-          <a href="/" className="nav-item nav-link">About</a>
-          <a href="/resume" className="nav-item nav-link">Resume</a>
-          <a href="/portfolio" className="nav-item nav-link">Portfolio</a>
+          <Link to="/" className={location.pathname === "/" ? "nav-item nav-link active" : "nav-item nav-link"}>About</Link>
+          <Link to="/resume" className={location.pathname === "/resume" ? "nav-item nav-link active" : "nav-item nav-link"}>Resume</Link>
+          <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-item nav-link active" : "nav-item nav-link"}>Portfolio</Link>
         </div>
-      </div>
     </nav>
   );
 }
