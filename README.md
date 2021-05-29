@@ -1,5 +1,5 @@
 # Portfolio 4
-Yet another time-sucking portfolio project.
+Yet another updated portfolio project.
 
 ## Uses
 
