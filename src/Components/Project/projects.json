@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Employee Directory",
+    "link": "https://erickmeline.github.io/Employee-Directory/",
+    "image": "https://github.com/erickmeline/Employee-Directory/raw/main/public/images/screenshot.png",
+    "description": "An employee directory built in React that allows both sorting and filtering of the employees by name.",
+    "github": "https://github.com/erickmeline/Employee-Directory"
+  },
+  {
+    "id": 2,
+    "title": "Clicky",
+    "link": "https://erickmeline.github.io/Clicky/",
+    "image": "https://github.com/erickmeline/Clicky/raw/master/public/images/screenshot.png",
+    "description": "Clicky is a fun little memory game built with React with a Rick and Morty theme. Awesome.",
+    "github": "https://github.com/erickmeline/Clicky"
+  },
+  {
+    "id": 3,
+    "title": "Emomii",
+    "link": "https://emomii.herokuapp.com",
+    "image": "https://raw.githubusercontent.com/erickmeline/Project2/main/screenshot2.png",
+    "description": "A daily mood tracker to identify patterns that can point towards emotionally intelligence.",
+    "github": "https://github.com/erickmeline/Project2"
+  },
+  {
+    "id": 4,
+    "title": "Workout-Tracker",
+    "link": "https://ericks-workout-tracker.herokuapp.com/",
+    "image": "https://github.com/erickmeline/Workout-Tracker/raw/main/public/images/screenshot.png",
+    "description": "Workout tracker allows creation of workout plans with various exercises and charts over time.",
+    "github": "https://github.com/erickmeline/Workout-Tracker"
+  },
+  {
+    "id": 5,
+    "title": "Readme Generator",
+    "link": "https://youtu.be/TkdjWBhXukk",
+    "image": "https://github.com/erickmeline/Readme-Generator/raw/master/assets/images/screenshot.png",
+    "description": "A Node.js app that accepts input about a github project, and generates a polished readme.",
+    "github": "https://github.com/erickmeline/Readme-Generator"
+  },
+  {
+    "id": 6,
+    "title": "Book Search",
+    "link": "https://ericks-google-books-search.herokuapp.com",
+    "image": "https://github.com/erickmeline/Google-Books-Search/raw/main/client/public/screenshot.png",
+    "description": "A React.js app that searches Google Books, and saves favorites for future purchase.",
+    "github": "https://github.com/erickmeline/Google-Books-Search"
+  }
+]
