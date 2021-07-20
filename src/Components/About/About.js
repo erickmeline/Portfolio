@@ -16,7 +16,7 @@ function About(props) {
                         <div className="card-body">
                             <h4 className="card-title">About me</h4>
                             <p>
-                                Drawing on front-end coding experience, in-depth knowledge of Javascript and React concepts, I seek to outperform and build on innovation, utilizing both creativity and programming expertise. Responsive web-based applications that delight users and operate efficiently in large-scale environments is my jam.
+                                I'm a creative problem-solver with a versatile and diverse skill set as a Web Developer with an eye for design. Drawing on a breadth of coding and software development experience, I seek to outperform and build on innovation, utilizing both creativity and programming expertise. I hold professional certificates in Full Stack Web Development from the University of California Berkeley, and Front-end Application Development from Codecademy. I enjoy bringing creativity and technical skills to a company where I can grow and become a valuable asset.
                             </p>
                         </div>
                     </div>
