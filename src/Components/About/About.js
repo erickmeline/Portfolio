@@ -24,19 +24,19 @@ function About(props) {
                         <div className="card small col-lg-4 col-sm-12">
                             <div className="card-body">
                                 <h6 className="card-title">Linkedin</h6>
-                                <small className="card-text"><Link to={`https://www.linkedin.com/in/erick-m-2943819/`}>erick-m-2943819</Link></small>
+                                <small className="card-text"><a href="https://www.linkedin.com/in/erick-meline/">/erick-meline/</a></small>
                             </div>
                         </div>
                         <div className="card small col-lg-4 col-sm-12">
                             <div className="card-body">
                                 <h6 className="card-title">Phone</h6>
-                                <small className="card-text"><Link to={`tel://925.451.1168`}>925 451 1168</Link></small>
+                                <small className="card-text"><a href="tel://925-451-1168">925 451 1168</a></small>
                             </div>
                         </div>
                         <div className="card small col-lg-4 col-sm-12">
                             <div className="card-body">
                                 <h6 className="card-title">Email</h6>
-                                <small className="card-text"><Link to={`mailto://erickmeline@gmail.com`}>erickmeline@gmail.com</Link></small>
+                                <small className="card-text"><a href="mailto://erickmeline@gmail.com">erickmeline@gmail.com</a></small>
                             </div>
                         </div>
                     </div>
